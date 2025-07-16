@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">JavaScript Data Types</h1>
+
+    <p>JavaScript provides different types of data that can be used to store values.</p>
+
+    <h3>Common Data Types:</h3>
+    <ul>
+      <li><strong>String</strong>: text, e.g. <code>"Hello"</code></li>
+      <li><strong>Number</strong>: integer or floating-point, e.g. <code>100</code>, <code>3.14</code></li>
+      <li><strong>Boolean</strong>: true or false</li>
+      <li><strong>Array</strong>: collection of values, e.g. <code>["apple", "banana"]</code></li>
+      <li><strong>Object</strong>: key-value pairs, e.g. <code>{{ '{' }}name: "Murari"{{ '}' }}</code></li>
+      <li><strong>Null</strong>: intentionally empty</li>
+      <li><strong>Undefined</strong>: variable declared but no value assigned</li>
+    </ul>
+
+    <h3>Try It:</h3>
+    <button (click)="showDataTypes()">Show Data Types</button>
+    <p [innerHTML]="output"></p>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Position</h1>
+
+    <p>The <code>position</code> property specifies the type of positioning method used for an element. It can affect how elements are placed in relation to their normal position or their parent.</p>
+
+    <h3>Position Types:</h3>
+    <ul>
+      <li><strong>static:</strong> Default. Element is placed in normal flow.</li>
+      <li><strong>relative:</strong> Positioned relative to its normal position.</li>
+      <li><strong>absolute:</strong> Positioned relative to the nearest positioned ancestor.</li>
+      <li><strong>fixed:</strong> Positioned relative to the browser window.</li>
+      <li><strong>sticky:</strong> Scrolls until a certain position and sticks there.</li>
+    </ul>
+
+    <h3>Example CSS:</h3>
+    <code>
+      .relative-box {{ '{' }}<br>
+      &nbsp;&nbsp;position: relative;<br>
+      &nbsp;&nbsp;top: 20px;<br>
+      &nbsp;&nbsp;left: 20px;<br>
+      &nbsp;&nbsp;background-color: #198754;<br>
+      &nbsp;&nbsp;color: white;<br>
+      &nbsp;&nbsp;width: 200px;<br>
+      &nbsp;&nbsp;height: 100px;<br>
+      &nbsp;&nbsp;text-align: center;<br>
+      &nbsp;&nbsp;line-height: 100px;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+    <div class="relative-box">Relative Positioned Box</div>
+
+    <h3>Tips:</h3>
+    <ul>
+      <li><code>position: absolute;</code> removes the element from normal flow</li>
+      <li><code>position: fixed;</code> is great for headers or navbars</li>
+      <li><code>relative</code> is useful when nudging an element from its spot</li>
+      <li>Always set <code>top</code>, <code>left</code>, <code>right</code>, or <code>bottom</code> with position types</li>
+    </ul>
+  </div>
+</div>

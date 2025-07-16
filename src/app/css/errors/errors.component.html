@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Errors</h1>
+
+    <p>CSS errors usually occur due to typos, invalid syntax, or misuse of properties. Browsers will often skip invalid rules without breaking the rest of your CSS.</p>
+
+    <h3>Common CSS Mistakes:</h3>
+    <ul>
+      <li>Missing semicolons</li>
+      <li>Invalid property names</li>
+      <li>Unmatched curly braces <code>{{ '{' }} {{ '}' }}</code></li>
+      <li>Wrong value types (e.g., using <code>px</code> for colors)</li>
+      <li>Misplaced selectors or typos</li>
+    </ul>
+
+    <h3>Incorrect CSS Example:</h3>
+    <code>
+      p {{ '{' }}<br>
+      &nbsp;&nbsp;color green; /* ❌ Missing colon */<br>
+      &nbsp;&nbsp;font-size: 16px /* ❌ Missing semicolon */<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Corrected CSS:</h3>
+    <code>
+      p {{ '{' }}<br>
+      &nbsp;&nbsp;color: green;<br>
+      &nbsp;&nbsp;font-size: 16px;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+    <p style="color: green; font-size: 16px;">This paragraph is styled correctly with valid CSS.</p>
+
+    <h3>Tips to Avoid CSS Errors:</h3>
+    <ul>
+      <li>Use a code editor with linting (like VS Code)</li>
+      <li>Validate your CSS using tools like the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a></li>
+      <li>Keep styles consistent and readable</li>
+      <li>Comment out parts of your code to isolate issues</li>
+    </ul>
+  </div>
+</div>

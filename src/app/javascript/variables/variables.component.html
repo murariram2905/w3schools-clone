@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">JavaScript Variables</h1>
+
+    <p>Variables are containers for storing data values. In JavaScript, you can declare variables using <code>var</code>, <code>let</code>, or <code>const</code>.</p>
+
+    <h3>Declaring Variables:</h3>
+    <code>
+      let x = 5;<br>
+      const y = 10;<br>
+      var z = x + y;
+    </code>
+
+    <h3>Variable Rules:</h3>
+    <ul>
+      <li>Variable names must begin with a letter, <code>$</code>, or <code>_</code></li>
+      <li>Variable names are case sensitive (<code>age</code> and <code>Age</code> are different)</li>
+      <li><code>let</code> and <code>const</code> are block-scoped (introduced in ES6)</li>
+      <li><code>const</code> variables cannot be reassigned</li>
+    </ul>
+
+    <h3>Try It:</h3>
+    <button (click)="runVariableDemo()">Run Code</button>
+    <p>{{ output }}</p>
+  </div>
+</div>

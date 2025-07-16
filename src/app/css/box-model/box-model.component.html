@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Box Model</h1>
+
+    <p>The CSS Box Model describes how elements are structured and how spacing is calculated around them. Every element is a rectangular box consisting of:</p>
+
+    <ul>
+      <li><strong>Content</strong> – the actual text or image</li>
+      <li><strong>Padding</strong> – space around the content (inside the border)</li>
+      <li><strong>Border</strong> – the edge around the padding</li>
+      <li><strong>Margin</strong> – space outside the border</li>
+    </ul>
+
+    <h3>Diagram:</h3>
+    <div class="box-demo">Content Area</div>
+
+    <h3>CSS Code:</h3>
+    <code>
+      .box-demo {{ '{' }}<br>
+      &nbsp;&nbsp;padding: 20px;<br>
+      &nbsp;&nbsp;border: 5px solid #198754;<br>
+      &nbsp;&nbsp;margin: 20px;<br>
+      &nbsp;&nbsp;background-color: #e8f5e9;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Notes:</h3>
+    <ul>
+      <li><strong>padding</strong>: space between content and border</li>
+      <li><strong>margin</strong>: space outside the element</li>
+      <li><strong>border</strong>: surrounds the padding and content</li>
+      <li>You can inspect box model using browser dev tools</li>
+    </ul>
+  </div>
+</div>

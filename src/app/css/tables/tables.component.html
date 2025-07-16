@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Tables</h1>
+
+    <p>Tables can be styled using CSS to enhance readability and layout. You can style borders, padding, background colors, and more.</p>
+
+    <h3>Basic Table Styling:</h3>
+    <code>
+      table {{ '{' }}<br>
+      &nbsp;&nbsp;width: 100%;<br>
+      &nbsp;&nbsp;border-collapse: collapse;<br>
+      {{ '}' }}<br><br>
+      th, td {{ '{' }}<br>
+      &nbsp;&nbsp;border: 1px solid #ccc;<br>
+      &nbsp;&nbsp;padding: 10px;<br>
+      &nbsp;&nbsp;text-align: left;<br>
+      {{ '}' }}<br><br>
+      th {{ '{' }} background-color: #198754; color: white; {{ '}' }}<br>
+      tr:nth-child(even) {{ '{' }} background-color: #f2f2f2; {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ravi</td>
+          <td>HTML</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>Anjali</td>
+          <td>CSS</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Murari</td>
+          <td>JavaScript</td>
+          <td>95</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Tips:</h3>
+    <ul>
+      <li>Use <code>border-collapse: collapse;</code> to remove space between borders</li>
+      <li>Alternate row colors improve readability</li>
+      <li><code>th</code> is used for table headers</li>
+      <li>Use padding and alignment for neatness</li>
+    </ul>
+  </div>
+</div>

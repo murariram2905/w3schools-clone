@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Float</h1>
+
+    <p>The <code>float</code> property in CSS is used to position elements to the left or right of a container, allowing other content to wrap around them.</p>
+
+    <h3>Common Float Values:</h3>
+    <ul>
+      <li><code>left</code> – Floats the element to the left</li>
+      <li><code>right</code> – Floats the element to the right</li>
+      <li><code>none</code> – Default; no floating</li>
+    </ul>
+
+    <h3>Example CSS:</h3>
+    <code>
+      .float-box {{ '{' }}<br>
+      &nbsp;&nbsp;width: 150px;<br>
+      &nbsp;&nbsp;height: 100px;<br>
+      &nbsp;&nbsp;background-color: #198754;<br>
+      &nbsp;&nbsp;color: white;<br>
+      &nbsp;&nbsp;text-align: center;<br>
+      &nbsp;&nbsp;line-height: 100px;<br>
+      &nbsp;&nbsp;float: left;<br>
+      &nbsp;&nbsp;margin-right: 15px;<br>
+      {{ '}' }}<br><br>
+      .clearfix::after {{ '{' }}<br>
+      &nbsp;&nbsp;content: "";<br>
+      &nbsp;&nbsp;display: table;<br>
+      &nbsp;&nbsp;clear: both;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+    <div class="clearfix">
+      <div class="float-box">Floating Box</div>
+      <p>This paragraph wraps around the floating box. Float is useful for layouts like image wrapping or side-by-side sections.</p>
+    </div>
+
+    <h3>Tips:</h3>
+    <ul>
+      <li>Always clear floats using <code>clear: both</code> or clearfix</li>
+      <li>Float is useful for simple layouts, but Flexbox or Grid is recommended for modern designs</li>
+      <li>Floated elements are removed from the normal document flow</li>
+    </ul>
+  </div>
+</div>

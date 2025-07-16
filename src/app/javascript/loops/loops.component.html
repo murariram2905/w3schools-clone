@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">JavaScript Loops</h1>
+
+    <p>Loops can execute a block of code a number of times. Useful when you want to repeat tasks.</p>
+
+    <h3>Types of Loops:</h3>
+    <ul>
+      <li><strong>for</strong> - loops through a block of code a number of times</li>
+      <li><strong>while</strong> - loops through a block of code while a condition is true</li>
+      <li><strong>do...while</strong> - also loops while a condition is true, but always runs once first</li>
+      <li><strong>for...of</strong> - loops through values of an iterable object like an array</li>
+    </ul>
+
+    <h3>Example - for loop:</h3>
+    <code>
+      for (let i = 0; i &lt; 5; i++) {{ '{' }}<br>
+      &nbsp;&nbsp;console.log(i);<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Try It:</h3>
+    <button (click)="runLoops()">Run Loop Examples</button>
+    <p [innerHTML]="output"></p>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<nav>
+    <div class="menu" >
+       
+        <ng-container *ngIf="showMenu">
+            <div *ngFor="let item of menu; let i = index">
+                <a [routerLink]="item.route" routerLinkActive="active" *ngIf="item.isActive">{{item.name}}</a>
+            </div>
+        </ng-container>
+
+        
+    </div>
+</nav>

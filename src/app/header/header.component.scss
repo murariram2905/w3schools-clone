@@ -1,0 +1,42 @@
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+.search-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  border-radius: 10px !important;
+  padding-right: 50px; // leaves room for button
+  height: 42px;
+  box-shadow: none;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #198754;
+}
+
+.search-btn {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+  width: 42px;
+  height:42px;
+  border-radius: 10px;
+  z-index: 2;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+  }
+}

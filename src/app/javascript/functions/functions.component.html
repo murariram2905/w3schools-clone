@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">JavaScript Functions</h1>
+
+    <p>Functions are blocks of code designed to perform a particular task. They are executed when "called".</p>
+
+    <h3>Defining a Function:</h3>
+    <code>
+      function greet(name) {{ '{' }}<br>
+      &nbsp;&nbsp;return "Hello " + name;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Calling a Function:</h3>
+    <code>
+      let message = greet("Murari");<br>
+      console.log(message);
+    </code>
+
+    <h3>Try It:</h3>
+    <button (click)="greetUser()">Run Function</button>
+    <p>{{ output }}</p>
+
+    <h3>Types of Functions:</h3>
+    <ul>
+      <li><strong>Named functions:</strong> Regular functions with a name</li>
+      <li><strong>Anonymous functions:</strong> Functions without a name (used in expressions)</li>
+      <li><strong>Arrow functions:</strong> <code>(x) =&gt; x * 2</code> — introduced in ES6</li>
+    </ul>
+  </div>
+</div>

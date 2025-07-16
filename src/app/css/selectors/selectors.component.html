@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Selectors</h1>
+
+    <p>CSS selectors are used to target HTML elements you want to style.</p>
+
+    <h3>Types of CSS Selectors:</h3>
+    <ul>
+      <li><strong>Universal Selector</strong>: <code>*</code> targets all elements</li>
+      <li><strong>Element Selector</strong>: targets elements by tag name</li>
+      <li><strong>Class Selector</strong>: uses a dot <code>.</code> before the class name</li>
+      <li><strong>ID Selector</strong>: uses a hash <code>#</code> before the ID</li>
+      <li><strong>Group Selector</strong>: targets multiple elements</li>
+    </ul>
+
+    <h3>Example:</h3>
+    <code>
+      * {{ '{' }}<br>
+      &nbsp;&nbsp;margin: 0;<br>
+      {{ '}' }}<br><br>
+
+      p {{ '{' }}<br>
+      &nbsp;&nbsp;color: blue;<br>
+      {{ '}' }}<br><br>
+
+      .highlight {{ '{' }}<br>
+      &nbsp;&nbsp;background-color: yellow;<br>
+      {{ '}' }}<br><br>
+
+      #main {{ '{' }}<br>
+      &nbsp;&nbsp;font-weight: bold;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+    <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;">
+      <p>This is a normal paragraph.</p>
+      <p class="highlight">This paragraph has a yellow background (class selector).</p>
+      <p id="main">This paragraph is bold (ID selector).</p>
+    </div>
+
+    <h3>Notes:</h3>
+    <ul>
+      <li><strong>*</strong> targets everything (use carefully)</li>
+      <li><strong>p</strong> targets all &lt;p&gt; tags</li>
+      <li><strong>.classname</strong> is used for reusable styles</li>
+      <li><strong>#idname</strong> should be unique per page</li>
+    </ul>
+  </div>
+</div>

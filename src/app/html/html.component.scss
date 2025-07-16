@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.html-container {
+  display: flex;
+  height: 80vh; /* Viewport height */
+}
+
+.html-menu {
+  width: 20%;
+  border-right: 2px solid #767676;
+  padding: 10px 0;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+
+.html-content {
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}

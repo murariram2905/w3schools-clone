@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Display</h1>
+
+    <p>The <code>display</code> property determines how an element is displayed in the document layout.</p>
+
+    <h3>Common Display Values:</h3>
+    <ul>
+      <li><strong>block</strong> – Takes full width, starts on a new line</li>
+      <li><strong>inline</strong> – Flows with text, no width/height support</li>
+      <li><strong>inline-block</strong> – Like inline, but supports width and height</li>
+      <li><strong>none</strong> – Hides the element from the page</li>
+    </ul>
+
+    <h3>Example CSS:</h3>
+    <code>
+      .block-box {{ '{' }} display: block; background-color: #198754; color: white; margin-bottom: 10px; padding: 10px; {{ '}' }}<br>
+      .inline-box {{ '{' }} display: inline; background-color: #ffc107; padding: 5px; {{ '}' }}<br>
+      .inline-block-box {{ '{' }} display: inline-block; background-color: #0dcaf0; padding: 10px; width: 120px; {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+    <div class="block-box">Block Element</div>
+    <span class="inline-box">Inline</span>
+    <span class="inline-box">Text</span><br><br>
+    <span class="inline-block-box">Inline-Block</span>
+    <span class="inline-block-box">Boxes</span>
+
+    <h3>Tips:</h3>
+    <ul>
+      <li>Use <code>inline-block</code> when you want inline layout + box styling</li>
+      <li><code>display: none</code> hides the element completely</li>
+      <li>Default display: <code>div</code> is block, <code>span</code> is inline</li>
+    </ul>
+  </div>
+</div>

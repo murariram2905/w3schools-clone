@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">CSS Lists</h1>
+
+    <p>CSS allows you to customize the appearance of lists including bullets, numbers, spacing, and more.</p>
+
+    <h3>Types of Lists:</h3>
+    <ul>
+      <li><strong>Unordered List:</strong> Uses <code>&lt;ul&gt;</code> with bullets</li>
+      <li><strong>Ordered List:</strong> Uses <code>&lt;ol&gt;</code> with numbers</li>
+    </ul>
+
+    <h3>CSS Styling for Lists:</h3>
+    <code>
+      ul.custom-bullets {{ '{' }}<br>
+      &nbsp;&nbsp;list-style-type: square;<br>
+      &nbsp;&nbsp;margin-left: 20px;<br>
+      {{ '}' }}<br><br>
+      ol.custom-numbers {{ '{' }}<br>
+      &nbsp;&nbsp;list-style-type: upper-roman;<br>
+      &nbsp;&nbsp;margin-left: 20px;<br>
+      {{ '}' }}
+    </code>
+
+    <h3>Output:</h3>
+
+    <h4>Custom Unordered List</h4>
+    <ul class="custom-bullets">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <h4>Custom Ordered List</h4>
+    <ol class="custom-numbers">
+      <li>Introduction</li>
+      <li>Syntax</li>
+      <li>Examples</li>
+    </ol>
+
+    <h3>Tips:</h3>
+    <ul>
+      <li>Use <code>list-style-type</code> to change bullet/number style</li>
+      <li>You can also use <code>list-style-image</code> to add custom icons</li>
+      <li>Control spacing with <code>margin</code> and <code>padding</code></li>
+    </ul>
+  </div>
+</div>

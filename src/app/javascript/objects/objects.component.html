@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="scroll-area">
+    <h1 class="headline">JavaScript Objects</h1>
+
+    <p>Objects are used to store keyed collections of various data and more complex entities.</p>
+
+    <h3>Creating an Object:</h3>
+    <code>
+      const person = {{ '{' }}<br>
+      &nbsp;&nbsp;firstName: "Murari",<br>
+      &nbsp;&nbsp;lastName: "Ram",<br>
+      &nbsp;&nbsp;age: 24,<br>
+      &nbsp;&nbsp;fullName: function() {{ '{' }}<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;return this.firstName + " " + this.lastName;<br>
+      &nbsp;&nbsp;{{ '}' }}<br>
+      {{ '}' }};
+    </code>
+
+    <h3>Accessing Object Properties:</h3>
+    <code>
+      person.firstName<br>
+      person["age"]
+    </code>
+
+    <h3>Try It:</h3>
+    <button (click)="showObject()">Show Object Info</button>
+    <p [innerHTML]="output"></p>
+
+    <h3>Why Use Objects?</h3>
+    <ul>
+      <li>Group related data and functions</li>
+      <li>Build structured, reusable code</li>
+      <li>Key concept in OOP (Object-Oriented Programming)</li>
+    </ul>
+  </div>
+</div>
