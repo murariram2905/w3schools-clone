@@ -1,59 +1,66 @@
-# W3schoolsClone
+# 📘 W3Schools Clone – Built with Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+A modern clone of W3Schools built using Angular, focusing on responsive UI, modular architecture, and educational content for HTML, CSS, JavaScript, and more.
 
-## Development server
+![Angular](https://img.shields.io/badge/Built%20With-Angular-DD0031?style=for-the-badge&logo=angular)
+![Bootstrap](https://img.shields.io/badge/UI-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
+![GitHub repo size](https://img.shields.io/github/repo-size/murariram2905/w3schools-clone?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/murariram2905/w3schools-clone?style=flat-square)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🚀 Live Demo
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+> 📍 🌐 [murariw3schools-clone.netlify.app](https://murariw3schools-clone.netlify.app/) 
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🧩 Features
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- 🧱 Fully responsive layout using Bootstrap
+- 🧭 Angular Routing (SPA navigation)
+- 📂 Modular structure (`header`, `footer`, `menu`, etc.)
+- 📚 Multiple learning sections: HTML, CSS, JS
+- 🎯 Component-based reusable design
+- 📁 Organized SCSS styling and global styles
+- 🌐 Ready for scaling with more tutorials/pages
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🛠️ Tech Stack
 
-To build the project run:
+- **Frontend**: Angular 17+, TypeScript
+- **Styling**: SCSS, Bootstrap 5
+- **Routing**: Angular Router
+- **Icons**: FontAwesome (if used)
+- **Version Control**: Git & GitHub
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🗂️ Folder Structure
+📁 .vscode/
+📁 public/
+📁 src/
+   📁 app/
+      📁 css/
+      📁 footer/
+      📁 header/
+      📁 home/
+      📁 html/
+      📁 javascript/
+      📁 left-menu/
+      📁 menu/
+      ├── app-routing.module.ts  
+      ├── app.component.html  
+      ├── app.component.scss  
+      ├── app.component.spec.ts  
+      ├── app.component.ts  
+      └── app.module.ts
+   📁 assets/
+   ├── index.html
+   ├── main.ts
+   └── styles.scss
+.editorconfig  
+.gitignore  
+README.md
